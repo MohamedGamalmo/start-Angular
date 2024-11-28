@@ -1,0 +1,54 @@
+
+h1{
+    color: #2C3E50;
+    font-size: 40px;
+    font-weight: 700;
+}
+.lines{
+    position: relative;
+}
+.lines::before{
+    content: "";
+    position: absolute;
+    top: 70px;
+    left: 650px;
+    width: 80px; 
+    height: 4px;
+    color: white;
+    background-color: #2C3E50;
+    z-index: 11;
+}
+.lines::after{
+    content: "";
+    position: absolute;
+    top: 70px;
+    right: 650px;
+    width: 80px; 
+    height: 4px;
+    color: white;
+    background-color: #2C3E50;
+}
+.starr{
+    color: #2C3E50;
+}
+
+.form-control:focus {
+    border-color: transparent;
+    box-shadow: none;
+}
+
+.label{
+    position: relative;
+    display: none;
+    top: -10px;
+    left: 100px;
+    color: #1abc9c;
+}
+.bttn{
+    margin-top: 10px;
+    width: 120px;
+    background-color: #1abc9c;
+    padding: 8px;
+    color: white;
+    margin-left: 340px;
+}

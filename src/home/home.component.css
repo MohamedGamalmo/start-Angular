@@ -1,0 +1,30 @@
+.home{
+    background-color: #1ABC9C;
+    height: 38rem;
+}
+.cardd{
+    width: 65%;
+}
+.decore{
+    position: relative;
+}
+.decore::before{
+    content: "";
+    position: absolute;
+    top: 70px;
+    left: 80px;
+    width: 80px; 
+    height: 4px;
+    color: white;
+    background-color: white;
+}
+.decore::after{
+    content: "";
+    position: absolute;
+    top: 70px;
+    left: 215px;
+    width: 80px; 
+    height: 4px;
+    color: white;
+    background-color: white;
+}

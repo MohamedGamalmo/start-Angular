@@ -1,0 +1,33 @@
+
+
+/* nav  */
+ul ,li{
+    text-decoration: none;
+    list-style: none;
+
+}
+.navbar{
+    height: 100px;
+    background-color: #2C3E50;
+}
+.nav-link{
+    font-size: 16px;
+    font-weight: 700;
+}
+.navbar-brand{
+    font-size: 32px;
+    font-weight: 700;
+    background-color: #2C3E50;
+}
+
+.color{
+    background-color: #1ABC9C;
+
+}
+.btn{
+    color: white;
+    font-weight: 700;
+}
+.btn:hover {
+    color: white;
+}

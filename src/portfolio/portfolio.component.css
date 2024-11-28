@@ -1,0 +1,51 @@
+h1{
+    color: #2C3E50;
+    font-size: 40px;
+    font-weight: 700;
+}
+.lines{
+    position: relative;
+}
+.lines::before{
+    content: "";
+    position: absolute;
+    top: 70px;
+    left: 650px;
+    width: 80px; 
+    height: 4px;
+    color: white;
+    background-color: #2C3E50;
+    z-index: 11;
+}
+.lines::after{
+    content: "";
+    position: absolute;
+    top: 70px;
+    right: 650px;
+    width: 80px; 
+    height: 4px;
+    color: white;
+    background-color: #2C3E50;
+}
+.starr{
+    color: #2C3E50;
+}
+
+.layer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    color: white;
+    background-color: #1ABC9C;
+    opacity: 0;
+    transition: all 0.5s;
+}
+.items:hover .layer{
+    opacity: 0.9;
+}

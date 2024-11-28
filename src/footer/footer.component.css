@@ -1,0 +1,21 @@
+
+
+.footer{
+    background-color: #2C3E50;
+}
+.information{
+    background-color: #2C3E50;
+    color: white;
+}
+
+.icons{
+    padding: 10px;
+    border: 1px white solid;
+    border-radius: 40px;
+    font-size: 18px;
+    margin: 4px;
+    color: white;
+}
+.footer2{
+    background-color: #1A252F;
+}
